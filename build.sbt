@@ -44,7 +44,7 @@ lazy val root = tlCrossRootProject
   )
 
 val http4sVersion = "0.23.25"
-val circeVersion = "0.14.1"
+val circeVersion = "0.14.10"
 lazy val core = crossProject(JVMPlatform)
   .crossType(CrossType.Pure)
   .withoutSuffixFor(JVMPlatform)
