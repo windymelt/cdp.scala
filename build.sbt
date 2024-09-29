@@ -1,7 +1,7 @@
 import Implicits._
 import ProjectKeys._
 
-val scala3Version = "3.3.1"
+val scala3Version = "3.3.4"
 
 ThisBuild / tlBaseVersion := "0.0"
 
