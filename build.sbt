@@ -53,7 +53,7 @@ lazy val core = crossProject(JVMPlatform)
   .settings(
     description := "Chrome DevTools Protocol wrapper for Scala",
     libraryDependencies ++= Seq(
-      "com.lihaoyi" %%% "os-lib" % "0.9.3",
+      "com.lihaoyi" %%% "os-lib" % "0.11.3",
       "org.http4s" %%% "http4s-jdk-http-client" % "0.9.1",
       "org.http4s" %%% "http4s-dsl" % http4sVersion,
       "org.http4s" %%% "http4s-circe" % http4sVersion,
